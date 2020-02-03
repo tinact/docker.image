@@ -55,6 +55,10 @@ Storage location of the Docker file.
     api_key: '3fe6ff42edm793ddei5'
 ```
 
+## Sponsor
+
+- [ITIGO AG](https://itigo.ch)
+
 ## License
 
 This project is under the MIT License. See the [LICENSE](licence) file for the full license text.
