@@ -1,0 +1,34 @@
+---
+name: 'Publish Docker Image'
+description: 'Build and publish an Docker Image to Registry'
+author: 'Simon Baerlocher <s.baerlocher@sbaerlocher.ch>"'
+inputs:
+  image_name:
+    description: "So that an image can be assigned by name, a unique name must be assigned."
+    required: true
+  image_tag:
+    default: 'latest'
+    description: "Each image should have a tag for unique identification."
+  build_args:
+    description: "Docker build arguments in format `KEY=VALUE,KEY=VALUE`."
+  registry:
+    default: 'registry.hub.docker.com'
+    description: "URL of a Docker compatible registry for pushing a Docker image."
+  registry_username:
+    required: true
+    description:  "Registry Username"
+  registry_password:
+    required: true
+    description: |
+      Registry Password. This should be stored in a Secret on Github.
+
+      See https://help.github.com/en/github/automating-your-workflow-with-github-actions/virtual-environments-for-github-actions#creating-and-using-secrets-encrypted-variables.
+  dockerfile:
+    default: 'dockerfile'
+    description: "Storage location of the Docker file."
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
+branding:
+  icon: 'box'
+  color: 'blue'
