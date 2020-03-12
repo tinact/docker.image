@@ -34,7 +34,7 @@ module.exports =
 /******/ 	// the startup function
 /******/ 	function startup() {
 /******/ 		// Load entry module and return exports
-/******/ 		return __webpack_require__(429);
+/******/ 		return __webpack_require__(526);
 /******/ 	};
 /******/
 /******/ 	// run startup
@@ -57,454 +57,11 @@ module.exports = require("child_process");
 
 /***/ }),
 
-/***/ 429:
-/***/ (function(module, __unusedexports, __webpack_require__) {
-
-module.exports =
-/******/ (function(modules, runtime) { // webpackBootstrap
-/******/ 	"use strict";
-/******/ 	// The module cache
-/******/ 	var installedModules = {};
-/******/
-/******/ 	// The require function
-/******/ 	function __webpack_require__(moduleId) {
-/******/
-/******/ 		// Check if module is in cache
-/******/ 		if(installedModules[moduleId]) {
-/******/ 			return installedModules[moduleId].exports;
-/******/ 		}
-/******/ 		// Create a new module (and put it into the cache)
-/******/ 		var module = installedModules[moduleId] = {
-/******/ 			i: moduleId,
-/******/ 			l: false,
-/******/ 			exports: {}
-/******/ 		};
-/******/
-/******/ 		// Execute the module function
-/******/ 		modules[moduleId].call(module.exports, module, module.exports, __webpack_require__);
-/******/
-/******/ 		// Flag the module as loaded
-/******/ 		module.l = true;
-/******/
-/******/ 		// Return the exports of the module
-/******/ 		return module.exports;
-/******/ 	}
-/******/
-/******/
-/******/ 	__webpack_require__.ab = __dirname + "/";
-/******/
-/******/ 	// the startup function
-/******/ 	function startup() {
-/******/ 		// Load entry module and return exports
-/******/ 		return __webpack_require__(429);
-/******/ 	};
-/******/
-/******/ 	// run startup
-/******/ 	return startup();
-/******/ })
-/************************************************************************/
-/******/ ({
-
-/***/ 87:
-/***/ (function(module) {
-
-module.exports = __webpack_require__(87);
-
-/***/ }),
-
-/***/ 129:
-/***/ (function(module) {
-
-module.exports = __webpack_require__(129);
-
-/***/ }),
-
-/***/ 429:
-/***/ (function(module, __unusedexports, __nested_webpack_require_1592__) {
-
-module.exports =
-/******/ (function(modules, runtime) { // webpackBootstrap
-/******/ 	"use strict";
-/******/ 	// The module cache
-/******/ 	var installedModules = {};
-/******/
-/******/ 	// The require function
-/******/ 	function __webpack_require__(moduleId) {
-/******/
-/******/ 		// Check if module is in cache
-/******/ 		if(installedModules[moduleId]) {
-/******/ 			return installedModules[moduleId].exports;
-/******/ 		}
-/******/ 		// Create a new module (and put it into the cache)
-/******/ 		var module = installedModules[moduleId] = {
-/******/ 			i: moduleId,
-/******/ 			l: false,
-/******/ 			exports: {}
-/******/ 		};
-/******/
-/******/ 		// Execute the module function
-/******/ 		modules[moduleId].call(module.exports, module, module.exports, __webpack_require__);
-/******/
-/******/ 		// Flag the module as loaded
-/******/ 		module.l = true;
-/******/
-/******/ 		// Return the exports of the module
-/******/ 		return module.exports;
-/******/ 	}
-/******/
-/******/
-/******/ 	__webpack_require__.ab = __dirname + "/";
-/******/
-/******/ 	// the startup function
-/******/ 	function startup() {
-/******/ 		// Load entry module and return exports
-/******/ 		return __webpack_require__(429);
-/******/ 	};
-/******/
-/******/ 	// run startup
-/******/ 	return startup();
-/******/ })
-/************************************************************************/
-/******/ ({
-
-/***/ 87:
-/***/ (function(module) {
-
-module.exports = __nested_webpack_require_1592__(87);
-
-/***/ }),
-
-/***/ 129:
-/***/ (function(module) {
-
-module.exports = __nested_webpack_require_1592__(129);
-
-/***/ }),
-
-/***/ 429:
-/***/ (function(module, __unusedexports, __nested_webpack_require_1592__) {
-
-module.exports =
-/******/ (function(modules, runtime) { // webpackBootstrap
-/******/ 	"use strict";
-/******/ 	// The module cache
-/******/ 	var installedModules = {};
-/******/
-/******/ 	// The require function
-/******/ 	function __webpack_require__(moduleId) {
-/******/
-/******/ 		// Check if module is in cache
-/******/ 		if(installedModules[moduleId]) {
-/******/ 			return installedModules[moduleId].exports;
-/******/ 		}
-/******/ 		// Create a new module (and put it into the cache)
-/******/ 		var module = installedModules[moduleId] = {
-/******/ 			i: moduleId,
-/******/ 			l: false,
-/******/ 			exports: {}
-/******/ 		};
-/******/
-/******/ 		// Execute the module function
-/******/ 		modules[moduleId].call(module.exports, module, module.exports, __webpack_require__);
-/******/
-/******/ 		// Flag the module as loaded
-/******/ 		module.l = true;
-/******/
-/******/ 		// Return the exports of the module
-/******/ 		return module.exports;
-/******/ 	}
-/******/
-/******/
-/******/ 	__webpack_require__.ab = __dirname + "/";
-/******/
-/******/ 	// the startup function
-/******/ 	function startup() {
-/******/ 		// Load entry module and return exports
-/******/ 		return __webpack_require__(429);
-/******/ 	};
-/******/
-/******/ 	// run startup
-/******/ 	return startup();
-/******/ })
-/************************************************************************/
-/******/ ({
-
-/***/ 87:
-/***/ (function(module) {
-
-module.exports = __nested_webpack_require_1592__(87);
-
-/***/ }),
-
-/***/ 129:
-/***/ (function(module) {
-
-module.exports = __nested_webpack_require_1592__(129);
-
-/***/ }),
-
-/***/ 429:
-/***/ (function(module, __unusedexports, __nested_webpack_require_1592__) {
-
-module.exports =
-/******/ (function(modules, runtime) { // webpackBootstrap
-/******/ 	"use strict";
-/******/ 	// The module cache
-/******/ 	var installedModules = {};
-/******/
-/******/ 	// The require function
-/******/ 	function __webpack_require__(moduleId) {
-/******/
-/******/ 		// Check if module is in cache
-/******/ 		if(installedModules[moduleId]) {
-/******/ 			return installedModules[moduleId].exports;
-/******/ 		}
-/******/ 		// Create a new module (and put it into the cache)
-/******/ 		var module = installedModules[moduleId] = {
-/******/ 			i: moduleId,
-/******/ 			l: false,
-/******/ 			exports: {}
-/******/ 		};
-/******/
-/******/ 		// Execute the module function
-/******/ 		modules[moduleId].call(module.exports, module, module.exports, __webpack_require__);
-/******/
-/******/ 		// Flag the module as loaded
-/******/ 		module.l = true;
-/******/
-/******/ 		// Return the exports of the module
-/******/ 		return module.exports;
-/******/ 	}
-/******/
-/******/
-/******/ 	__webpack_require__.ab = __dirname + "/";
-/******/
-/******/ 	// the startup function
-/******/ 	function startup() {
-/******/ 		// Load entry module and return exports
-/******/ 		return __webpack_require__(429);
-/******/ 	};
-/******/
-/******/ 	// run startup
-/******/ 	return startup();
-/******/ })
-/************************************************************************/
-/******/ ({
-
-/***/ 87:
-/***/ (function(module) {
-
-module.exports = __nested_webpack_require_1592__(87);
-
-/***/ }),
-
-/***/ 129:
-/***/ (function(module) {
-
-module.exports = __nested_webpack_require_1592__(129);
-
-/***/ }),
-
-/***/ 429:
-/***/ (function(module, __unusedexports, __nested_webpack_require_1592__) {
-
-module.exports =
-/******/ (function(modules, runtime) { // webpackBootstrap
-/******/ 	"use strict";
-/******/ 	// The module cache
-/******/ 	var installedModules = {};
-/******/
-/******/ 	// The require function
-/******/ 	function __webpack_require__(moduleId) {
-/******/
-/******/ 		// Check if module is in cache
-/******/ 		if(installedModules[moduleId]) {
-/******/ 			return installedModules[moduleId].exports;
-/******/ 		}
-/******/ 		// Create a new module (and put it into the cache)
-/******/ 		var module = installedModules[moduleId] = {
-/******/ 			i: moduleId,
-/******/ 			l: false,
-/******/ 			exports: {}
-/******/ 		};
-/******/
-/******/ 		// Execute the module function
-/******/ 		modules[moduleId].call(module.exports, module, module.exports, __webpack_require__);
-/******/
-/******/ 		// Flag the module as loaded
-/******/ 		module.l = true;
-/******/
-/******/ 		// Return the exports of the module
-/******/ 		return module.exports;
-/******/ 	}
-/******/
-/******/
-/******/ 	__webpack_require__.ab = __dirname + "/";
-/******/
-/******/ 	// the startup function
-/******/ 	function startup() {
-/******/ 		// Load entry module and return exports
-/******/ 		return __webpack_require__(429);
-/******/ 	};
-/******/
-/******/ 	// run startup
-/******/ 	return startup();
-/******/ })
-/************************************************************************/
-/******/ ({
-
-/***/ 87:
-/***/ (function(module) {
-
-module.exports = __nested_webpack_require_1592__(87);
-
-/***/ }),
-
-/***/ 129:
-/***/ (function(module) {
-
-module.exports = __nested_webpack_require_1592__(129);
-
-/***/ }),
-
-/***/ 429:
-/***/ (function(module, __unusedexports, __nested_webpack_require_1592__) {
-
-module.exports =
-/******/ (function(modules, runtime) { // webpackBootstrap
-/******/ 	"use strict";
-/******/ 	// The module cache
-/******/ 	var installedModules = {};
-/******/
-/******/ 	// The require function
-/******/ 	function __webpack_require__(moduleId) {
-/******/
-/******/ 		// Check if module is in cache
-/******/ 		if(installedModules[moduleId]) {
-/******/ 			return installedModules[moduleId].exports;
-/******/ 		}
-/******/ 		// Create a new module (and put it into the cache)
-/******/ 		var module = installedModules[moduleId] = {
-/******/ 			i: moduleId,
-/******/ 			l: false,
-/******/ 			exports: {}
-/******/ 		};
-/******/
-/******/ 		// Execute the module function
-/******/ 		modules[moduleId].call(module.exports, module, module.exports, __webpack_require__);
-/******/
-/******/ 		// Flag the module as loaded
-/******/ 		module.l = true;
-/******/
-/******/ 		// Return the exports of the module
-/******/ 		return module.exports;
-/******/ 	}
-/******/
-/******/
-/******/ 	__webpack_require__.ab = __dirname + "/";
-/******/
-/******/ 	// the startup function
-/******/ 	function startup() {
-/******/ 		// Load entry module and return exports
-/******/ 		return __webpack_require__(429);
-/******/ 	};
-/******/
-/******/ 	// run startup
-/******/ 	return startup();
-/******/ })
-/************************************************************************/
-/******/ ({
-
-/***/ 87:
-/***/ (function(module) {
-
-module.exports = __nested_webpack_require_1592__(87);
-
-/***/ }),
-
-/***/ 129:
-/***/ (function(module) {
-
-module.exports = __nested_webpack_require_1592__(129);
-
-/***/ }),
-
-/***/ 429:
-/***/ (function(module, __unusedexports, __nested_webpack_require_1592__) {
-
-module.exports =
-/******/ (function(modules, runtime) { // webpackBootstrap
-/******/ 	"use strict";
-/******/ 	// The module cache
-/******/ 	var installedModules = {};
-/******/
-/******/ 	// The require function
-/******/ 	function __webpack_require__(moduleId) {
-/******/
-/******/ 		// Check if module is in cache
-/******/ 		if(installedModules[moduleId]) {
-/******/ 			return installedModules[moduleId].exports;
-/******/ 		}
-/******/ 		// Create a new module (and put it into the cache)
-/******/ 		var module = installedModules[moduleId] = {
-/******/ 			i: moduleId,
-/******/ 			l: false,
-/******/ 			exports: {}
-/******/ 		};
-/******/
-/******/ 		// Execute the module function
-/******/ 		modules[moduleId].call(module.exports, module, module.exports, __webpack_require__);
-/******/
-/******/ 		// Flag the module as loaded
-/******/ 		module.l = true;
-/******/
-/******/ 		// Return the exports of the module
-/******/ 		return module.exports;
-/******/ 	}
-/******/
-/******/
-/******/ 	__webpack_require__.ab = __dirname + "/";
-/******/
-/******/ 	// the startup function
-/******/ 	function startup() {
-/******/ 		// Load entry module and return exports
-/******/ 		return __webpack_require__(429);
-/******/ 	};
-/******/
-/******/ 	// run startup
-/******/ 	return startup();
-/******/ })
-/************************************************************************/
-/******/ ({
-
-/***/ 87:
-/***/ (function(module) {
-
-module.exports = __nested_webpack_require_1592__(87);
-
-/***/ }),
-
-/***/ 129:
-/***/ (function(module) {
-
-module.exports = __nested_webpack_require_1592__(129);
-
-/***/ }),
-
-/***/ 429:
-/***/ (function(__unusedmodule, exports, __nested_webpack_require_1592__) {
+/***/ 431:
+/***/ (function(__unusedmodule, exports, __webpack_require__) {
 
 "use strict";
 
-var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
-    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
-    return new (P || (P = Promise))(function (resolve, reject) {
-        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
-        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
-        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
-        step((generator = generator.apply(thisArg, _arguments || [])).next());
-    });
-};
 var __importStar = (this && this.__importStar) || function (mod) {
     if (mod && mod.__esModule) return mod;
     var result = {};
@@ -513,86 +70,16 @@ var __importStar = (this && this.__importStar) || function (mod) {
     return result;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const core = __importStar(__nested_webpack_require_1592__(470));
-const fs = __importStar(__nested_webpack_require_1592__(747));
-const cp = __importStar(__nested_webpack_require_1592__(129));
-function run() {
-    return __awaiter(this, void 0, void 0, function* () {
-        try {
-            const imageName = core.getInput('image_name', { required: true });
-            const imageTag = core.getInput('image_tag') || 'latest';
-            const buildArgs = core.getInput('build_args');
-            const registry = core.getInput('registry') || 'registry.hub.docker.com';
-            const registryUsername = core.getInput('registry_username', {
-                required: true
-            });
-            const registryPassword = core.getInput('registry_password', {
-                required: true
-            });
-            const dockerfile = core.getInput('dockerfile') || 'dockerfile';
-            const repository = `${registry}/${imageName}:${imageTag}`;
-            login(registry, registryUsername, registryPassword)
-                .then(() => core.info(`Successfully Logging into Docker registry ${registry}.`))
-                .catch(err => core.setFailed(err.message));
-            build(repository, dockerfile, buildArgs)
-                .then(() => core.info(`Successfully Building docker image: ${imageName}:${imageTag}.`))
-                .catch(err => core.setFailed(err.message));
-            push(repository, registry)
-                .then(() => core.info(`Successfully Pushing docker image to ${registry}.`))
-                .catch(err => core.setFailed(err.message));
-        }
-        catch (error) {
-            core.setFailed(error.message);
-        }
-    });
-}
-const login = (registry, registryUsername, registryPassword) => __awaiter(void 0, void 0, void 0, function* () {
-    core.info(`Logging into Docker registry ${registry}.`);
-    cp.execSync(`docker login -u ${registryUsername} --password-stdin ${registry} >/dev/null 2>&1`, {
-        input: registryPassword
-    });
-});
-const build = (repository, dockerfile, buildArgs) => __awaiter(void 0, void 0, void 0, function* () {
-    if (!fs.existsSync(dockerfile)) {
-        core.setFailed(`Dockerfile does not exist in location ${dockerfile}`);
-    }
-    core.info(`Building docker image: ${repository}`);
-    cp.execSync(`${buildCommand(dockerfile, repository, buildArgs)} >/dev/null 2>&1`);
-});
-const push = (repository, registry) => __awaiter(void 0, void 0, void 0, function* () {
-    core.info(`Pushing docker image to ${registry}`);
-    cp.execSync(`docker push ${repository}  >/dev/null 2>&1`);
-});
-const buildCommand = (dockerfile, repository, buildArgs) => {
-    let createBuildCommand = `docker build -t ${repository}`;
-    if (buildArgs) {
-        const buildArgsArray = buildArgs.split(',');
-        const argsSuffix = buildArgsArray.map(arg => `--build-arg ${arg}`).join(' ');
-        createBuildCommand = `${createBuildCommand} ${argsSuffix}`;
-    }
-    return `${createBuildCommand} ${dockerfile}`;
-};
-run();
-
-
-/***/ }),
-
-/***/ 431:
-/***/ (function(__unusedmodule, exports, __nested_webpack_require_5690__) {
-
-"use strict";
-
-Object.defineProperty(exports, "__esModule", { value: true });
-const os = __nested_webpack_require_5690__(87);
+const os = __importStar(__webpack_require__(87));
 /**
  * Commands
  *
  * Command Format:
- *   ##[name key=value;key=value]message
+ *   ::name key=value,key=value::message
  *
  * Examples:
- *   ##[warning]This is the user warning message
- *   ##[set-secret name=mypassword]definitelyNotAPassword!
+ *   ::warning::This is the message
+ *   ::set-env name=MY_VAR::some value
  */
 function issueCommand(command, properties, message) {
     const cmd = new Command(command, properties, message);
@@ -628,37 +115,35 @@ class Command {
                         else {
                             cmdStr += ',';
                         }
-                        // safely append the val - avoid blowing up when attempting to
-                        // call .replace() if message is not a string for some reason
-                        cmdStr += `${key}=${escape(`${val || ''}`)}`;
+                        cmdStr += `${key}=${escapeProperty(val)}`;
                     }
                 }
             }
         }
-        cmdStr += CMD_STRING;
-        // safely append the message - avoid blowing up when attempting to
-        // call .replace() if message is not a string for some reason
-        const message = `${this.message || ''}`;
-        cmdStr += escapeData(message);
+        cmdStr += `${CMD_STRING}${escapeData(this.message)}`;
         return cmdStr;
     }
 }
 function escapeData(s) {
-    return s.replace(/\r/g, '%0D').replace(/\n/g, '%0A');
+    return (s || '')
+        .replace(/%/g, '%25')
+        .replace(/\r/g, '%0D')
+        .replace(/\n/g, '%0A');
 }
-function escape(s) {
-    return s
+function escapeProperty(s) {
+    return (s || '')
+        .replace(/%/g, '%25')
         .replace(/\r/g, '%0D')
         .replace(/\n/g, '%0A')
-        .replace(/]/g, '%5D')
-        .replace(/;/g, '%3B');
+        .replace(/:/g, '%3A')
+        .replace(/,/g, '%2C');
 }
 //# sourceMappingURL=command.js.map
 
 /***/ }),
 
 /***/ 470:
-/***/ (function(__unusedmodule, exports, __nested_webpack_require_8149__) {
+/***/ (function(__unusedmodule, exports, __webpack_require__) {
 
 "use strict";
 
@@ -671,10 +156,17 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (Object.hasOwnProperty.call(mod, k)) result[k] = mod[k];
+    result["default"] = mod;
+    return result;
+};
 Object.defineProperty(exports, "__esModule", { value: true });
-const command_1 = __nested_webpack_require_8149__(431);
-const os = __nested_webpack_require_8149__(87);
-const path = __nested_webpack_require_8149__(622);
+const command_1 = __webpack_require__(431);
+const os = __importStar(__webpack_require__(87));
+const path = __importStar(__webpack_require__(622));
 /**
  * The code to exit an action
  */
@@ -760,6 +252,13 @@ exports.setFailed = setFailed;
 //-----------------------------------------------------------------------
 // Logging Commands
 //-----------------------------------------------------------------------
+/**
+ * Gets whether Actions Step Debug is on or not
+ */
+function isDebug() {
+    return process.env['RUNNER_DEBUG'] === '1';
+}
+exports.isDebug = isDebug;
 /**
  * Writes debug message to user log
  * @param message debug message
@@ -859,129 +358,89 @@ exports.getState = getState;
 
 /***/ }),
 
-/***/ 622:
-/***/ (function(module) {
+/***/ 526:
+/***/ (function(__unusedmodule, exports, __webpack_require__) {
 
-module.exports = __nested_webpack_require_1592__(622);
+"use strict";
 
-/***/ }),
+var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
+    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
+    return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+    });
+};
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (Object.hasOwnProperty.call(mod, k)) result[k] = mod[k];
+    result["default"] = mod;
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const core = __importStar(__webpack_require__(470));
+const fs = __importStar(__webpack_require__(747));
+const cp = __importStar(__webpack_require__(129));
+function run() {
+    return __awaiter(this, void 0, void 0, function* () {
+        try {
+            const imageName = core.getInput('image_name', { required: true });
+            const imageTag = core.getInput('image_tag') || 'latest';
+            const buildArgs = core.getInput('build_args');
+            const registry = core.getInput('registry') || 'registry.hub.docker.com';
+            const registryUsername = core.getInput('registry_username', {
+                required: true
+            });
+            const registryPassword = core.getInput('registry_password', {
+                required: true
+            });
+            const dockerfile = core.getInput('dockerfile') || 'dockerfile';
+            const repository = `${registry}/${imageName}:${imageTag}`;
+            login(registry, registryUsername, registryPassword)
+                .then(() => core.info(`Successfully Logging into Docker registry ${registry}.`))
+                .catch(err => core.setFailed(err.message));
+            build(repository, dockerfile, buildArgs)
+                .then(() => core.info(`Successfully Building docker image: ${imageName}:${imageTag}.`))
+                .catch(err => core.setFailed(err.message));
+            push(repository, registry)
+                .then(() => core.info(`Successfully Pushing docker image to ${registry}.`))
+                .catch(err => core.setFailed(err.message));
+        }
+        catch (error) {
+            core.setFailed(error.message);
+        }
+    });
+}
+const login = (registry, registryUsername, registryPassword) => __awaiter(void 0, void 0, void 0, function* () {
+    core.info(`Logging into Docker registry ${registry}.`);
+    cp.execSync(`docker login -u ${registryUsername} --password-stdin ${registry} >/dev/null 2>&1`, {
+        input: registryPassword
+    });
+});
+const build = (repository, dockerfile, buildArgs) => __awaiter(void 0, void 0, void 0, function* () {
+    if (!fs.existsSync(dockerfile)) {
+        core.setFailed(`Dockerfile does not exist in location ${dockerfile}`);
+    }
+    core.info(`Building docker image: ${repository}`);
+    cp.execSync(`${buildCommand(dockerfile, repository, buildArgs)} >/dev/null 2>&1`);
+});
+const push = (repository, registry) => __awaiter(void 0, void 0, void 0, function* () {
+    core.info(`Pushing docker image to ${registry}`);
+    cp.execSync(`docker push ${repository}  >/dev/null 2>&1`);
+});
+const buildCommand = (dockerfile, repository, buildArgs) => {
+    let createBuildCommand = `docker build -t ${repository}`;
+    if (buildArgs) {
+        const buildArgsArray = buildArgs.split(',');
+        const argsSuffix = buildArgsArray.map(arg => `--build-arg ${arg}`).join(' ');
+        createBuildCommand = `${createBuildCommand} ${argsSuffix}`;
+    }
+    return `${createBuildCommand} ${dockerfile}`;
+};
+run();
 
-/***/ 747:
-/***/ (function(module) {
-
-module.exports = __nested_webpack_require_1592__(747);
-
-/***/ })
-
-/******/ });
-
-/***/ }),
-
-/***/ 622:
-/***/ (function(module) {
-
-module.exports = __nested_webpack_require_1592__(622);
-
-/***/ }),
-
-/***/ 747:
-/***/ (function(module) {
-
-module.exports = __nested_webpack_require_1592__(747);
-
-/***/ })
-
-/******/ });
-
-/***/ }),
-
-/***/ 622:
-/***/ (function(module) {
-
-module.exports = __nested_webpack_require_1592__(622);
-
-/***/ }),
-
-/***/ 747:
-/***/ (function(module) {
-
-module.exports = __nested_webpack_require_1592__(747);
-
-/***/ })
-
-/******/ });
-
-/***/ }),
-
-/***/ 622:
-/***/ (function(module) {
-
-module.exports = __nested_webpack_require_1592__(622);
-
-/***/ }),
-
-/***/ 747:
-/***/ (function(module) {
-
-module.exports = __nested_webpack_require_1592__(747);
-
-/***/ })
-
-/******/ });
-
-/***/ }),
-
-/***/ 622:
-/***/ (function(module) {
-
-module.exports = __nested_webpack_require_1592__(622);
-
-/***/ }),
-
-/***/ 747:
-/***/ (function(module) {
-
-module.exports = __nested_webpack_require_1592__(747);
-
-/***/ })
-
-/******/ });
-
-/***/ }),
-
-/***/ 622:
-/***/ (function(module) {
-
-module.exports = __nested_webpack_require_1592__(622);
-
-/***/ }),
-
-/***/ 747:
-/***/ (function(module) {
-
-module.exports = __nested_webpack_require_1592__(747);
-
-/***/ })
-
-/******/ });
-
-/***/ }),
-
-/***/ 622:
-/***/ (function(module) {
-
-module.exports = __webpack_require__(622);
-
-/***/ }),
-
-/***/ 747:
-/***/ (function(module) {
-
-module.exports = __webpack_require__(747);
-
-/***/ })
-
-/******/ });
 
 /***/ }),
 
