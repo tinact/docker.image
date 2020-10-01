@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/tinact/docker.image#readme",
   "dependencies": {
-    "@actions/core": "^1.2.3"
+    "@actions/core": "^1.2.6"
   },
   "devDependencies": {
     "@types/jest": "^25.1.3",
